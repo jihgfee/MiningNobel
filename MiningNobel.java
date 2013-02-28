@@ -23,9 +23,9 @@ public class MiningNobel
 							count++;
 						}
 					}
-                }
-            }
-        }
+				}
+			}
+		}
 		
 		return count;
     }
@@ -49,10 +49,10 @@ public class MiningNobel
 					if (l > -1) count++;										//We make sure that the returned index is an actual array index (more than -1)
 				}
 			}
-        }
+		}
 		
 		return count;
-    } 
+	} 
 	
 	//This method finds the amount of 4-tuples with ~N^2*log(n) runtime - N being the length of a
 	public static int cuteCount(double[] a)
@@ -102,7 +102,7 @@ public class MiningNobel
 		return count;
 	}
 	
-    public static void main(String[] args)  
+	public static void main(String[] args)
 	{ 
 		String[] strings = new In(args[0]).readAll().split("\\n");					//We accumulate a string array containing each seperate line in the file.
 		
